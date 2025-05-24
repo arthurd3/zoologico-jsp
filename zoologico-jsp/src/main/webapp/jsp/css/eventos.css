@@ -1,0 +1,135 @@
+* {
+    transition: all 0.3s ease;
+}
+
+.container-custom {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.zoo-title {
+    font-family: 'Georgia', serif;
+    font-size: 3.5rem;
+    color: #1b5e20;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.zoo-subtitle {
+    color: #444;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.tickets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.ticket-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f1f8e9 50%, #e8f5e9 100%);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 100, 0, 0.15);
+}
+
+.ticket-header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.ticket-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.ticket-header p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.8);
+}
+
+.ticket-body {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.ticket-icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid rgba(29, 83, 37, 0.62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-icon i {
+    font-size: 1.2rem;
+    color: #388e3c;
+    text-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+.ticket-body p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.ticket-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #388e3c;
+    margin-bottom: 30px;
+}
+
+.economy-text {
+    font-size: 0.9rem;
+    color: #388e3c;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.ticket-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    background: linear-gradient(45deg, #4caf50, #388e3c, #2e7d32);
+    background-size: 200% 200%;
+    animation: gradientBG 3s ease infinite;
+    box-shadow: 0 4px 15px rgba(56, 142, 60, 0.4);
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}

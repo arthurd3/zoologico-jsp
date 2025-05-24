@@ -1,0 +1,51 @@
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form-control:focus {
+    border-color: #2e8b57;
+    box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+}
+
+
+.btn-success {
+    background-color: #2e8b57;
+    border-color: #2e8b57;
+}
+
+.btn-success:hover {
+    background-color: #24704a;
+    border-color: #24704a;
+}
+
+
+.background-blur {
+    background-image: url('/jsp/images/elefante-asiatico-198685685.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.content-container {
+    z-index: 2;
+}
+
+
+.icon-style {
+    width: 130px;
+    filter: brightness(0) invert(1);
+}

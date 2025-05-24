@@ -1,0 +1,75 @@
+.evento-container {
+    display: flex;
+    background: linear-gradient(135deg, #430a68 0%, #230339 100%);
+    color: white;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    gap: 40px;
+}
+
+.texto-container {
+    flex: 1;
+    max-width: 55%;
+}
+
+.titulo {
+    color: #FFD700;
+    font-size: 32px;
+    font-family: "Hansief Zoo", Arial, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.descricao {
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: "Hansief Zoo", Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.saiba-mais {
+    background-color: #FFD700;
+    color: #2d004d;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.saiba-mais:hover {
+    background-color: #ffcc00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.imagem-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.modern-btn {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modern-btn:hover {
+    background-color: #218838 !important;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}

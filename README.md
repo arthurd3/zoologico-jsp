@@ -8,7 +8,7 @@ Sistema de gerenciamento para o **Zoológico Municipal de Juiz de Fora**, desenv
 
 - Java (Servlets e JSP)
 - Bootstrap (estilização)
-- MySQL (banco de dados)
+- PostgreSql (banco de dados)
 - Docker Compose (orquestração do ambiente)
 
 ---
@@ -52,7 +52,7 @@ Sistema de gerenciamento para o **Zoológico Municipal de Juiz de Fora**, desenv
 
 ## Banco de Dados
 
-Para subir o banco de dados **MySQL** com Docker Compose:
+Para subir o banco de dados **Postgres** com Docker Compose:
 
 ```bash
   docker compose up
